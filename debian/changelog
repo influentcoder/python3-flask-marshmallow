@@ -1,0 +1,5 @@
+flask-marshmallow (0.10.1-1) bionic; urgency=low
+
+  * Initial release.
+
+ -- Guillaume J Humbert <guillaume.j.humbert@pm.me>  Wed, 16 Oct 2019 08:29:30 +0800
