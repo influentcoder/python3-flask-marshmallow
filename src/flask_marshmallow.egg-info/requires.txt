@@ -1,0 +1,32 @@
+Flask
+marshmallow>=2.0.0
+six>=1.9.0
+
+[dev]
+flask-sqlalchemy
+marshmallow-sqlalchemy>=0.13.0
+pytest
+mock
+flake8==3.7.7
+pre-commit==1.16.0
+tox
+
+[dev:python_version >= "3.5"]
+flake8-bugbear==19.3.0
+
+[lint]
+flake8==3.7.7
+pre-commit==1.16.0
+
+[lint:python_version >= "3.5"]
+flake8-bugbear==19.3.0
+
+[sqlalchemy]
+flask-sqlalchemy
+marshmallow-sqlalchemy>=0.13.0
+
+[tests]
+flask-sqlalchemy
+marshmallow-sqlalchemy>=0.13.0
+pytest
+mock
