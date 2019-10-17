@@ -8,6 +8,6 @@
 override_dh_auto_clean:
 	dh_auto_clean
 	# This folder changes after a build.
-	git checkout -- src/flask_marshmallow.egg-info/*
+	git checkout -- src/flask_marshmallow.egg-info/* || echo -n
 	# Pybuild internal files.
 	rm -Rf .pybuild/ 2> /dev/null || echo -n

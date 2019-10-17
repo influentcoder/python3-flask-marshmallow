@@ -1,3 +1,9 @@
+flask-marshmallow (0.10.1-2) bionic; urgency=low
+
+  * Minor fix to the clean target.
+
+ -- Guillaume J Humbert <guillaume.j.humbert@pm.me>  Wed, 16 Oct 2019 08:35:30 +0800
+
 flask-marshmallow (0.10.1-1) bionic; urgency=low
 
   * Initial release.
