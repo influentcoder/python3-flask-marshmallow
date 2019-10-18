@@ -70,7 +70,7 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
     ],
-    test_suite="tests",
+    #test_suite="tests",
     project_urls={
         "Issues": "https://github.com/marshmallow-code/flask-marshmallow/issues",
         "Funding": "https://opencollective.com/marshmallow",
