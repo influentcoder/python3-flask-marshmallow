@@ -1,4 +1,10 @@
 flask-sqlalchemy Debian notes
 =============================
 
-No specific information to mention.
+Build a new version with gbp:
+
+gbp buildpackage --git-tag --git-sign-tags --git-pristine-tar --git-compression=xz
+
+Then:
+
+gbp push
